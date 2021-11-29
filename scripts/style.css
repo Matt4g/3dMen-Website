@@ -71,12 +71,14 @@ hr {
     -webkit-text-stroke: 1px #57989c;
     text-shadow: 2px -2px 0px #57989c;
 }
+
 /* Style inputs */
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
-    margin-top: 6px;
+    border-radius: 8px;
+    
     margin-bottom: 16px;
     resize: vertical;
   }
@@ -85,13 +87,14 @@ input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
-    margin-top: 6px;
+    border-radius: 8px;
+    
     margin-bottom: 16px;
     resize: vertical;
   }
   
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #ff0000;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -99,10 +102,17 @@ input[type=text], select, textarea {
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #ff0000;
   }
   
   /* Style the container/contact section */
+  #resize{
+        width: auto;
+        height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+  }
+
   .container {
     border-radius: 10px;
     
@@ -110,9 +120,11 @@ input[type=text], select, textarea {
     font-size: 17pt;
     margin-left: auto;
     margin-right: auto;
-    width: 65%;
-    height: auto;
+    width: 55%;
+    height: 50%;
     border: 8px solid ;
+    margin-top: 10%;
+    margin-bottom: auto;
 
   }
   
@@ -124,7 +136,7 @@ input[type=text], select, textarea {
   .column {
     
     width: 50%;
-    margin-top: 6px;
+    
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
