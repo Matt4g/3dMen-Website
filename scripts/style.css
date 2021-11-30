@@ -84,3 +84,88 @@ hr {
     -webkit-text-stroke: 1px #57989c;
     text-shadow: 2px -2px 0px #57989c;
 }
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #ff0000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ff0000;
+  }
+  
+  /* Style the container/contact section */
+  #resize{
+        width: auto;
+        height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+  }
+
+  .container {
+    border-radius: 10px;
+    
+    padding: 15px;
+    font-size: 17pt;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    height: 50%;
+    border: 8px solid ;
+    margin-top: 10%;
+    margin-bottom: auto;
+
+  }
+  
+  .row{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Create two columns that float next to eachother */
+  .column {
+    
+    width: 50%;
+    
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
