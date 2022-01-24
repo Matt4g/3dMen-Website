@@ -25,6 +25,7 @@ body {
     background-color: #f2f2f2;
 
     box-shadow: 0px 6px 5px -4px #00000033;
+    
 }
 
 #header-content {
@@ -38,6 +39,7 @@ body {
     position: relative;
     background:#f2f2f2be;
     height: 60px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 #nav-container {
@@ -89,7 +91,7 @@ hr {
 #text{
   width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: .1px solid #ccc;
     border-radius: 8px;
     height: 200px;
     margin-bottom: 16px;
@@ -146,7 +148,7 @@ input[type=text], select, textarea {
     margin-right: auto;
    /* width: 55%;
     height: 50%;*/
-    border: 2px solid #00000025;
+    border: 2px solid #00000000;
     margin-top: 10%;
     margin-bottom: auto;
     background-color: #f2f2f2;
@@ -159,8 +161,7 @@ input[type=text], select, textarea {
   /* Create two columns that float next to eachother */
   .column {
     
-    width: 50%;
-    
+    width: 65%;
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
