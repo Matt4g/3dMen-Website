@@ -10,13 +10,36 @@
         <title>The Three-D Men</title>
         <link rel="stylesheet" href="../scripts/style.css">       
     </head>
-    
     <body>
         <div id="container">
             <div class="pageheader"></div>
             
             <div class="main">
-                
+                <div class="container">
+  
+                    <div style="text-align:center;">
+                      <h2>Order Form</h2>
+                      <p id="p">We'll Let You Know When Your File Starts Printing</p>
+                    </div>
+              
+                    <div class="row">
+                      <div class="column">
+              
+                        <form id="contact-form" method="POST" 
+                        action="https://script.google.com/a/macros/mydacc.org/s/AKfycbzD_3avN-SjdZv9M32cWwAcT8MbdrmtY-MoR9jXN4KKj2ScfFovuCAZ8Rl3cWVf4lE/exec">
+                          <label>First Name</label>
+                          <input type="text" name="Fname" placeholder="First Name..." required>
+                          <label>Last Name</label>
+                          <input type="text" name="Lname" placeholder="Last Name..." required>
+                          <label>Email</label>
+                          <input type="email" name="Email" placeholder="Email..." required>
+                          <label>Message</label>
+                          <textarea id='text' name="message"></textarea>
+                          <input type="submit" value="Send" >
+                      </form>
+                      </div>
+                    </div>
+                  </div>
             </div>
         </div>
     </body>
