@@ -93,7 +93,7 @@ hr {
     padding: 12px;
     border: .1px solid #ccc;
     border-radius: 8px;
-    height: 200px;
+    height: 100px;
     margin-bottom: 16px;
     resize: vertical;
     
@@ -103,7 +103,6 @@ input[type=text], select, textarea {
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    
     margin-bottom: 16px;
     resize: vertical;
   }
@@ -115,7 +114,27 @@ input[type=text], select, textarea {
     border-radius: 8px;
     
     margin-bottom: 16px;
-    resize: vertical;
+    
+    
+  }
+  input[type=tel], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    
+    margin-bottom: 16px;
+    
+    
+  }
+  input[type=file], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    
+    margin-bottom: 16px;
+    
     
   }
   
