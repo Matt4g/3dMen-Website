@@ -210,3 +210,9 @@ input[type=text], select, textarea {
   #back:hover {
     background-color: #e2e2e2;
   }
+  #drop{
+    color: blue;
+  }
+  #drop:active{
+    color: blue;
+  }

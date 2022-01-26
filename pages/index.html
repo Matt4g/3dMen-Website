@@ -26,19 +26,39 @@
                       <div class="column">
               
                         <form id="order-form" method="POST" 
-                        action="https://script.google.com/macros/s/AKfycbxj3cGjM6aWAa08usnieZ-gOcssuIP1DuW-6WDtEGLY27CMfZOESZPy5Pv9DzmMryzX/exec">
-                          <label >STL File</label>
-                          <input type="file" name="File">
+                        action="https://sheetdb.io/api/v1/ewc18emke5zyi">
+                        <div style="text-align: center;">
+                          <label > <a href="https://www.dropbox.com/basic" target="_blank" id="drop"> Create a Free DropBox Account </a></label><br>
+                          <label >Upload The Files There</label>
+                          <label>Then Copy The Sharing Link and Paste It Here</label></div>
+                          <input type="text" name="data[File]" placeholder="Dropbox Link Here..." required>
+                         
+                          <br>
                           <label>Name</label>
-                          <input type="text" name="Name" placeholder="Name..." required>
+                          <input type="text" name="data[Name]" placeholder="Name..." required>
                           <label>Email</label>
-                          <input type="email" name="Email" placeholder="Email..." required>
+                          <input type="email" name="data[Email]" placeholder="Email..." required>
                           <label>Phone</label>
-                          <input type="tel" name="Phone" placeholder="Phone #..." required>
+                          <input type="tel" name="data[Phone]" placeholder="Phone #..." required>
                           <label>Description</label>
-                          <textarea id='text' name="Desc" placeholder="Text Here..."></textarea>
+                          <textarea id='text' name="data[Desc]" placeholder="Text Here..."></textarea>
                           <button type="submit" id="back">Send</button>
                       </form>
+                        <script>
+         var form = document.getElementById('order-form');
+  form.addEventListener("submit", e => {
+    e.preventDefault();
+    fetch(form.action, {
+        method : "POST",
+        body: new FormData(document.getElementById("order-form")),
+    }).then(
+        response => response.json()
+    ).then((html) => {
+      // you can put any JS code here
+     window.location.href = 'order.html'
+    });
+  });
+        </script>
                       </div>
                     </div>
                   </div>
