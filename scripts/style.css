@@ -215,3 +215,11 @@ input[type=text], select, textarea {
   #drop:active{
     color: blue;
   }
+#bounce{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#bounce1{
+  padding-left: 30px;
+  padding-right: 30px;
+}
