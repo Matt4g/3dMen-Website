@@ -21,7 +21,7 @@ body {
   position: relative;
   height: 80px;
   
-  background-color: #f2f2f2;
+  background-color: rgb(173, 216, 230);
 
   box-shadow: 0px 6px 5px -4px #000000;
   
@@ -36,7 +36,7 @@ body {
   margin: auto;
 
   position: relative;
-  background:#f2f2f2be;
+  background:rgba(173, 216, 230, 0.767);
   height: 60px;
   border-radius: 0px 0px 10px 10px;
 }
@@ -47,12 +47,13 @@ body {
   left: 10px;
 }
 .nav-btn {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #00286873;
+  color: #ffffff;
 
   border-radius: 4px 4px 0px 0px;
   border-style: none;
-
+  
+  text-shadow: 2px -2px 0px #002868;
   width: 120px;
   height: 25px;
 
@@ -60,7 +61,7 @@ body {
 }
 
 .nav-btn:hover {
-  background-color: red;
+  background-color: #BF0A30;
   color: #ffffff;
   box-shadow: 0px 2px 5px 0px #b0e6e6;
   cursor: pointer;
