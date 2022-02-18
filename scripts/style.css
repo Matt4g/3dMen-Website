@@ -57,13 +57,14 @@ body {
   width: 120px;
   height: 25px;
 
+  box-shadow: 0px 1px 3px 0px #00286873;
   transition-duration: .15s;
 }
 
 .nav-btn:hover {
   background-color: #BF0A30;
   color: #ffffff;
-  box-shadow: 0px 2px 5px 0px #b0e6e6;
+  box-shadow: 0px 2px 5px 0px #00286873;
   cursor: pointer;
 }
 
@@ -88,16 +89,7 @@ hr {
 }
 
 /* Style inputs */
-#text{
-width: 100%;
-  padding: 12px;
-  border: .1px solid #ccc;
-  border-radius: 8px;
-  height: 100px;
-  margin-bottom: 16px;
-  resize: vertical;
-  
-}
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -214,8 +206,11 @@ input[type=submit]:hover {
 #drop{
   color: blue;
 }
+#drop:hover{
+  color: #BF0A30;
+}
 #drop:active{
-  color: blue;
+  color: #BF0A30;
 }
 #bounce{
 padding-left: 50px;
